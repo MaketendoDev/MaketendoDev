@@ -1,38 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Maketendo's Portfolio</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="box">
+            <div class="center">
+                <h1>Maketendo's Portfolio!</h1>
+                
+                <h2>Whoa! Who are you?</h2>
+                <h3>
+                    Heyo, I'm Maketendo! I live in the UK and love to do some programming! I'm quite basic from coding
+                    things but i'm on my way to improving it!
+                </h3>
 
-  </head>
-  <body>
-  <div class="text-container">
-    Bubbles
-  </div>
-  <div class="gradient-bg">
-    <svg xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <filter id="goo">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
-          <feBlend in="SourceGraphic" in2="goo" />
-        </filter>
-      </defs>
-    </svg>
-    <div class="gradients-container">
-      <div class="g1"></div>
-      <div class="g2"></div>
-      <div class="g3"></div>
-      <div class="g4"></div>
-      <div class="g5"></div>
-      <div class="interactive"></div>
-    </div>
-  </div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+                <h3>I currently am making Minecraft Mods but I want to try doing more!</h3>
+
+                <h2>My Mods:</h2>
+                <div class="box-mini">
+                    <img class="box-mini-img" src="mod-icons/creative-heads.png" />
+
+                    <div class="box-mini-text">
+                        <h2>CreativeHeads</h2>
+                        <h3>A mod that adds Minecraft Heads from Minecraft Heads V2.0 to the creative inventory for easier access to builders!</h3>
+                    </div>
+                </div>
+                <br>
+                <div class="box-mini">
+                    <img class="box-mini-img" src="mod-icons/forged-reactor.png" />
+
+                    <div class="box-mini-text">
+                        <h2>Forged Reactor</h2>
+                        <h3>A Forge mod which adds Tony Stark's Iron Man Armor (from Marvel) into Minecraft!</h3>
+                    </div>
+                </div>
+                <br>
+                <div class="box-mini">
+                    <img class="box-mini-img" src="mod-icons/rename-me.png" />
+
+                    <div class="box-mini-text">
+                        <h2>RenameMe</h2>
+                        <h3>Introduces the /rename command to change how your username looks in chat!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

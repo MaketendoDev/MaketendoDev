@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsThin;
+    src: url(Poppins-Thin.ttf);
+}
+
+body {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+h1 {
+    font-family: Poppins;
+    color: aliceblue;
+}
+
+h2 {
+    font-family: Poppins;
+    color: aliceblue;
+}
+
+h3 {
+    font-family: PoppinsThin;
+    color: aliceblue;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    font-family: PoppinsThin;
+    color: aliceblue;
+}
+
+.box {
+    width: 1000px;
+    height: 800px;
+    text-align: center;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.box-mini {
+    width: 813px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.box-mini-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+div {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
